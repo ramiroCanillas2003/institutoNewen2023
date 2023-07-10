@@ -1,0 +1,230 @@
+html{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.tituloNewen{
+    border-color: #99ccff;
+    color: rgb(14, 13, 13);
+    font-size: 150px;
+    font-family: monospace;
+}
+
+ul{
+    position: sticky;
+    top: 5;
+    list-style-type: none;
+    margin: 5;
+    padding: 5;
+    display: flex;
+    justify-content: end;
+}
+
+.liNav{
+    margin: 10px;
+}
+
+.card-body{
+    background-color: #99ccff;
+}
+
+/* TARJETAS */
+
+.card-header{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+h5{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#divPrestaciones{
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+
+footer p{
+    margin: 50px;
+    background-color: antiquewhite;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.btn-light{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+}
+
+li{
+    padding: -5px;
+    margin: 5px;
+}
+
+footer li{
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulosFooter{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    background-color: antiquewhite;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+li {
+        padding: 8px 16px;
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #ddd;
+}
+
+      /* Estilos adicionales */
+li:hover {
+        background-color: #f5f5f5;
+}
+
+      /* Estilos para enlaces dentro de la lista */
+li a {
+        text-decoration: none;
+        color: #333;
+}
+
+
+/*DIV-CONTENTEDOR*/
+
+/* Estilos generales del contenedor */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px ;
+    padding: 20px;
+    background-color: #e7e7e7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#h2-Prestaciones{
+    background-color: #99ccff;
+}
+
+.zoomdivGeneralPrestaciones{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin: 30px;
+}
+
+.zoomdivGeneralPrestaciones:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.h2-Prestaciones{
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+  /* Estilos específicos para la clase 'container-red' */
+.container-red {
+    background-color: #99ccff;
+    border-color: 99ccff;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+  /* Estilos específicos para la clase 'container-blue' */
+.container-blue {
+    background-color: #cceeff;
+    border-color: #e7e7e7;
+    margin: 20px;
+}
+
+/* IFRAME */
+
+.iframeUbicacion{
+    margin: 100px;
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+    left: 520px;
+    overflow: hidden;
+}
+
+.iframeUbicacion:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+/* CONTACTO */
+
+#donde-contactarnos{
+    margin: 20px;
+    background-image: url(http://library.gnome.org/misc/release-notes/3.4/figures/rnusers.background.jpg.fr);
+    
+}
+
+.tituloContacto{
+    color: #ddd;
+}
+
+/* LOGO */
+
+.logo-label {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #f9f9f9;
+    padding: 5px;
+    border-radius: 4px;
+    z-index: 9999;
+    border-radius: 1000px;
+    border-color: #99ccff;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    border-color: #99ccff;
+}
+
+
